@@ -10,7 +10,7 @@ app.use(cors())
 
 
 
-mongoose.connect('mongodb+srv://sedemsenaya25:seditech@cluster0.sabihzv.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://<username>:<password >@cluster0.sabihzv.mongodb.net/?retryWrites=true&w=majority')
     .then(() => {console.log("mongoDB connected")})
 
 const tSchema = mongoose.Schema({
